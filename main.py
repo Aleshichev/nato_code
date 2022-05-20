@@ -23,7 +23,7 @@ for (index, row) in student_data_frame.iterrows():
 
 data = pandas.read_csv("nato_phonetic_alphabet.csv")
 new_dict = {row.letter:row.code for (index, row) in data.iterrows()}
-# print(new_dict)
+print(new_dict)
 
 
 
